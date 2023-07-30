@@ -1,0 +1,53 @@
+.navs{
+    padding-left: 0;
+    padding-right: 400px;
+}
+.dropdown-item{
+    text-align: initial;
+}
+svg{
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+
+.teams p,h2 {
+   
+    text-align: initial;}
+
+
+.wrapper{
+    direction: ltr;
+}   
+footer{
+    direction: ltr;
+}
+.ico{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.ico button{
+    top: 10px;
+}
+.ico input{
+    transform: rotate(180deg);
+    text-align: right;
+}
+.ico{
+    box-shadow: 2px -3px 5px 0px gray;
+}
+/* .topnav a{
+    float: right;
+}
+.topnav a.icon {
+    float: left;
+} */
+.topnav.responsive a{
+    text-align: right;
+}
+.topnav a.active {
+    text-align: left !important;
+}
